@@ -31,9 +31,13 @@ number = gets.chomp.to_i
 
 right_most_digit = number % 10
 
+last_two_digits = number % 100
+
 suffix = "th"
 
-if right_most_digit == 1
+if last_two_digits >= 11 && last_two_digits <= 13
+    suffix = 'th'
+elsif right_most_digit == 1
     suffix = "st"
 elsif right_most_digit == 2
     suffix = "nd"

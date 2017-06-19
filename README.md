@@ -1,2 +1,2 @@
 # firehose
-Code generatend during Firehose project mini bootcamp
+Code generated during Firehose project mini bootcamp
